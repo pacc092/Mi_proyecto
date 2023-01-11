@@ -5,22 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Productos</title>
-    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="./assets/css/estilos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-    <link rel="icon" href="../imagenes/icono.jpg">
+    <link rel="icon" href="./assets/imagenes/icono.jpg">
 </head>
 <body>
     <div class="padrep">
         <header id="productos">
             <div class="menu margen-interno">
                 <div class="logo">
-                    <a href="../index.html">VideoGam3rs</a>
+                    <a href="./index.php">VideoGam3rs</a>
                 </div>
                 <nav class="nav">
-                    <a href="../index.html"><i class="fa-solid fa-house"></i>Inicio</a>
-                    <a href="./noticias.html"><i class="fa-solid fa-layer-group"></i>Noticias</a>
-                    <a href="./productos.html"><i class="fa-solid fa-folder-open"></i>Productos</a>
-                    <a href="./nosotros2.html"><i class="fa-solid fa-magnifying-glass"></i>Nosotros</a>
+                    <a href="./index.php"><i class="fa-solid fa-house"></i>Inicio</a>
+                    <a href="./noticias.php"><i class="fa-solid fa-layer-group"></i>Noticias</a>
+                    <a href="./productos.php"><i class="fa-solid fa-folder-open"></i>Productos</a>
+                    <a href="./nosotros2.php"><i class="fa-solid fa-magnifying-glass"></i>Nosotros</a>
                 </nav>
                 <div class="social">
                     <div><a href="#"><i class="fa-brands fa-facebook"></i>facebook</a></div>
@@ -31,17 +31,17 @@
                 
                <div class="miSlider fade">
                     <div class="numerotxt">1/3</div>
-                    <img class="imgsld" src="../imagenes/hogwarts-legacy.jpg" style=" width: 100%">
+                    <img class="imgsld" src="./assets/imagenes/hogwarts-legacy.jpg" style=" width: 100%">
                     <div class="txt">Proximamente disponible nuestra web!!!</div>
                </div>
                <div class="miSlider fade">
                     <div class="numerotxt">2/3</div>
-                    <img class="imgsld" src="../imagenes/packps5.jpg" style="width: 100%;">
+                    <img class="imgsld" src="./assets/imagenes/packps5.jpg" style="width: 100%;">
                     <div class="txt">Pack de Ps5 y mando extra...PROXIMAMENTE!!!</div>
                </div>
                <div class="miSlider fade">
                     <div class="numerotxt">3/3</div>
-                    <img class="imgsld" src="../imagenes/variedad de juegos.jpg" style="width: 100%;">
+                    <img class="imgsld" src="./assets/imagenes/variedad de juegos.jpg" style="width: 100%;">
                     <div class="txt">Un amplio catálogo de videjuegos estarán pronto disponibles</div>
                 </div>
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -61,7 +61,7 @@
             <div class="articulosp">
                 <article class="articulo1">
                     <figure>
-                        <img src="../imagenes/packps5.jpg" alt="Play Station 5">
+                        <img src="./assets/imagenes/packps5.jpg" alt="Play Station 5">
                         <figcaption><h2>El futuro ha llegado con Play Station 5</h2></figcaption>
                     </figure>
                     <p>¡Nueva oferta disponible para estas navidades con este pack de la Play Station 5 y FIFA&copy;23!</p>
@@ -69,7 +69,7 @@
                 </article>
                 <article class="articulo1">
                     <figure>
-                        <img src="../imagenes/p2.jpg" alt="Play Station 5">
+                        <img src="./assets/imagenes/p2.jpg" alt="Play Station 5">
                         <figcaption><h2>Monitor gaming en oferta</h2></figcaption>
                     </figure>
                     <p>¿Te atreves con el mundo gamer? Esta es tu oportunidad, llévate este monitor a un precio asequible.</p>
@@ -77,7 +77,7 @@
                 </article>
                 <article class="articulo1">
                     <figure>
-                        <img src="../imagenes/p3.jpg" alt="camiseta">
+                        <img src="./assets/imagenes/p3.jpg" alt="camiseta">
                         <figcaption><h2>¿Eres de los que colecciona camisetas con portada de videojuegos?</h2></figcaption>
                     </figure>
                     <p>Durante este mes existirá una serie de packs de camisetas en oferta, no desaproveches y hazte con uno... o varios packs. Date prisa que se terminan.</p>
@@ -85,7 +85,7 @@
                 </article>
                 <article class="articulo1">
                     <figure>
-                        <img src="../imagenes/p4.jpg" alt="Play Station 5">
+                        <img src="./assets/imagenes/p4.jpg" alt="Play Station 5">
                         <figcaption><h2>Consola de nueva generación</h2></figcaption>
                     </figure>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nisi, quod quaerat voluptatem labore repudiandae commodi illo laborum. Eveniet et, necessitatibus animi quas earum accusamus voluptatem blanditiis perferendis neque? Officia?</p>

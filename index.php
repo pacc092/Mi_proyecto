@@ -6,21 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VIDEOJU3GOS</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-    <link rel="stylesheet" href="./css/estilos.css">
-    <link rel="icon" href="./imagenes/icono.jpg">
+    <link rel="stylesheet" href="./assets/css/estilos.css">
+    <link rel="icon" href="./assets/imagenes/icono.jpg">
 </head>
 <body>
     <div class="padre">
         <header class="header">
             <div class="menu margen-interno">
                 <div class="logo">
-                    <a href="./index.html">VideoGam3rs</a>
+                    <a href="./index.php">VideoGam3rs</a>
                 </div>
                 <nav class="nav">
-                    <a href="./index.html"><i class="fa-solid fa-house"></i>Inicio</a>
-                    <a href="./html/noticias.html"><i class="fa-solid fa-layer-group"></i>Noticias</a>
-                    <a href="./html/productos.html"><i class="fa-solid fa-folder-open"></i>Productos</a>
-                    <a href="./html/nosotros2.html"><i class="fa-solid fa-magnifying-glass"></i>Nosotros</a>
+                    <a href="./index.php"><i class="fa-solid fa-house"></i>Inicio</a>
+                    <a href="./noticias.php"><i class="fa-solid fa-layer-group"></i>Noticias</a>
+                    <a href="./productos.php"><i class="fa-solid fa-folder-open"></i>Productos</a>
+                    <a href="./nosotros2.php"><i class="fa-solid fa-magnifying-glass"></i>Nosotros</a>
                 </nav>
                 <div class="social">
                     <div><a href="#"><i class="fa-brands fa-facebook"></i>facebook</a></div>
@@ -36,7 +36,7 @@
             <div class="articulos">
                 <article class="articulo1">
                     <figure>
-                        <img src="./imagenes/1366_2000.jpeg" alt="Play Station 5">
+                        <img src="./assets/imagenes/1366_2000.jpeg" alt="Play Station 5">
                         <figcaption><h2>El futuro ha llegado con Play Station 5</h2></figcaption>
                     </figure>
                     <p >La elegancia de la nueva consola de Sony por fin tiene sentido, con esta consola de nueva generación, cuyos gráficos están dispuestos a revolucionar el mundo de los videojuegos. <span id="adicional" class="oculto">Y creemos que con su llegada, marcará un antes y un después si nos referimos a la hora de vivir una experiencia </span></p>
@@ -44,7 +44,7 @@
                 </article>
                 <article class="articulo1">
                     <figure>
-                        <img src="./imagenes/xboxS.jpg" alt="Play Station 5">
+                        <img src="./assets/imagenes/xboxS.jpg" alt="Play Station 5">
                         <figcaption><h2>Consola de nueva generación</h2></figcaption>
                     </figure>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nisi, quod quaerat voluptatem labore repudiandae commodi illo laborum. Eveniet et, necessitatibus animi quas earum accusamus voluptatem blanditiis perferendis neque? Officia?</p>
@@ -52,7 +52,7 @@
                 </article>
                 <article class="articulo1">
                     <figure>
-                        <img src="./imagenes/switch.jpg" alt="Play Station 5">
+                        <img src="./assets/imagenes/switch.jpg" alt="Play Station 5">
                         <figcaption><h2>Consola de nueva generación</h2></figcaption>
                     </figure>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nisi, quod quaerat voluptatem labore repudiandae commodi illo laborum. Eveniet et, necessitatibus animi quas earum accusamus voluptatem blanditiis perferendis neque? Officia?</p>
@@ -60,7 +60,7 @@
                 </article>
                 <article class="articulo1">
                     <figure>
-                        <img src="./imagenes/pcgamer.jpg" alt="Play Station 5">
+                        <img src="./assets/imagenes/pcgamer.jpg" alt="Play Station 5">
                         <figcaption><h2>Consola de nueva generación</h2></figcaption>
                     </figure>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nisi, quod quaerat voluptatem labore repudiandae commodi illo laborum. Eveniet et, necessitatibus animi quas earum accusamus voluptatem blanditiis perferendis neque? Officia?</p>
