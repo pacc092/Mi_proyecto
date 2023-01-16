@@ -39,7 +39,7 @@
                         <img src="./assets/imagenes/1366_2000.jpeg" alt="Play Station 5">
                         <figcaption><h2>El futuro ha llegado con Play Station 5</h2></figcaption>
                     </figure>
-                    <p >La elegancia de la nueva consola de Sony por fin tiene sentido, con esta consola de nueva generación, cuyos gráficos están dispuestos a revolucionar el mundo de los videojuegos. <span id="adicional" class="oculto">Y creemos que con su llegada, marcará un antes y un después si nos referimos a la hora de vivir una experiencia </span></p>
+                    <p >La elegancia de la nueva consola de Sony por fin tiene sentido, con esta consola de nueva generación, cuyos gráficos están dispuestos a revolucionar el mundo de los videojuegos.</p>
                     <a id="ampliar" href="#">Leer más</a>
                 </article>
                 <article class="articulo1">
