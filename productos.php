@@ -31,7 +31,7 @@
                 
                <div class="miSlider fade">
                     <div class="numerotxt">1/3</div>
-                    <img class="imgsld" src="./assets/imagenes/hogwarts-legacy.jpg" style=" width: 100%">
+                    <img class="imgsld" src="assets/imagenes/hogwarts-legacy.jpg" style=" width: 100%">
                     <div class="txt">Proximamente disponible nuestra web!!!</div>
                </div>
                <div class="miSlider fade">
@@ -54,7 +54,7 @@
                 <span class="dot" onclick="currentSlide(2)"></span>
                 <span class="dot" onclick="currentSlide(3)"></span>
             </div>
-            <script src="../js/productos.js"></script>
+            <script src="./assets/js/productos.js"></script>
         </header>
 
         <section class="sectionp margen-interno">
