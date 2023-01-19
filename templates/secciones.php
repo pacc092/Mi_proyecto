@@ -30,7 +30,7 @@ echo 'ERROR: ', $e->getCode(),' - ',$e->getMessage(),'<br />';
     
                 <article class="articulo1">
                     <figure>
-                        <img src="<?php echo $propiedad['imagen']; ?>" alt="Play Station 5">
+                        <img src="<?= WEBROOT ?>/imagenes/<?php echo $propiedad['imagen']; ?>" alt="Play Station 5">
                         <figcaption><h2><?php echo $propiedad['titulo'];?></h2></figcaption>
                     </figure>
                     <p ><?php echo $propiedad['texto']; ?></p>
