@@ -1,6 +1,6 @@
 <?php
 
-
+$mensaje=' ';
 
 if(isset($_POST['OK'])) {
 
