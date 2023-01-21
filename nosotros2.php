@@ -65,7 +65,11 @@ var_dump($_POST);
                 <h1 class="cuestionario">CUESTIONARIO</h1>
             </div>
             <div>
+<<<<<<< HEAD
                 <form action="" name="miformulario" method="post" enctype="multipart/form-data" class="cuadros" novalidate>
+=======
+                <form action="contacto.php" name="miformulario" method="" enctype="multipart/form-data" class="cuadros">
+>>>>>>> f7ff6584f81816019d5815c639e41f7880d73706
                     <fieldset>
                         <legend>Datos Personales</legend>
                         <label for="nombre">Nombre*</label>
