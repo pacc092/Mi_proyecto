@@ -1,5 +1,60 @@
 <?php
 require('templates/cabecera.php');
+
+$mensaje='';
+
+if(isset($_POST['OK'])) {
+
+var_dump($_POST);
+
+  $nombre =$_POST['nombre'];
+  
+  $mensaje='';
+  
+  if ($nombre == '')
+  
+  { $mensaje .= "El nombre es obligatorio.\n"; }
+  
+  if (strlen($nombre) < 10)
+  
+  { $mensaje .= "El nombre debe tener al menos 10 caracteres.\n"; }
+  
+  
+  
+  
+  $apellidos =($_POST['apellidos']);
+  
+  if ($apellidos == '')
+  
+  { $mensaje .= "El apellido es obligatorio.\n"; }
+  
+  if (strlen($apellidos) < 10)
+  
+  { $mensaje .= "El apellido debe tener al menos 10 caracteres.\n"; }
+  
+  
+  
+  
+  $email =($_POST['email']);
+  
+  if ($email == '')
+  
+  { $mensaje .= "El email es obligatorio.\n"; }
+  
+  
+  
+  
+  $descripción =($_POST['sugerencias']);
+  
+  if ($descripción == '')
+  
+  {$mensaje .= "Escriba que quiere saber y nos pondremos en contacto con usted.\n"; }
+  
+  if ($mensaje == '') {
+  
+  exit;}
+  
+  }
 ?>
             <div class="texto-principal margen-interno">
                 <h1>Si estás interesado en mejorar nuestra página, dejanos tu opinión rellenando nuestro cuestionario. Agradeceremos las ideas que nos puedes aportar para ir añadiendo contenido.VIDEOJU3GOS &copy; estará encantado.</h1>
@@ -10,7 +65,7 @@ require('templates/cabecera.php');
                 <h1 class="cuestionario">CUESTIONARIO</h1>
             </div>
             <div>
-                <form action="" name="miformulario" method="" enctype="multipart/form-data" class="cuadros">
+                <form action="" name="miformulario" method="post" enctype="multipart/form-data" class="cuadros" novalidate>
                     <fieldset>
                         <legend>Datos Personales</legend>
                         <label for="nombre">Nombre*</label>
@@ -134,8 +189,8 @@ require('templates/cabecera.php');
                   
                    
                   <fieldset> 
-                      <input type="button" onclick="comprobar()" value="Mandar datos"> 
-                      <script src="../js/productos.js"></script>
+                      <input type="submit" name="OK" value="MANDAR DATOS"> 
+                      
                       <input type="reset" value="Borrar datos"><br>
                       <input type="hidden" id="referencia" value="123456">   
                   </fieldset>  

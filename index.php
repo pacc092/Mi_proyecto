@@ -9,7 +9,7 @@ require 'templates/cabecera.php';
         </header>
         <section class="section margen-interno">
             <div class="articulos">
-                <?php require('./templates/secciones.php'); ?>
+                <?php require('templates/secciones.php'); ?>
                
     
                 <nav class="navegacion">
