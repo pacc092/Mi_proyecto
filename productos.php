@@ -1,5 +1,5 @@
 <?php
-require 'templates/cabecera.php';
+require 'includes/templates/cabecera.php';
 ?>
             <div class="texto-principal margen-internos contenedor-slider">
                 
@@ -72,7 +72,7 @@ require 'templates/cabecera.php';
                 </nav>
             
         </section>
-        <?php require_once('./templates/footer.php'); ?>
+        <?php require_once('includes/templates/footer.php'); ?>
     </div>
 </body>
 </html>

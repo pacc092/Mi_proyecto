@@ -1,5 +1,5 @@
 <?php
-require 'templates/cabecera.php';
+require 'includes/templates/cabecera.php';
 
 ?>
             <div class="texto-principal margen-interno">
@@ -9,7 +9,7 @@ require 'templates/cabecera.php';
         </header>
         <section class="section margen-interno">
             <div class="articulos">
-                <?php require('templates/secciones.php'); ?>
+                <?php require('includes/templates/secciones.php'); ?>
                
     
                 <nav class="navegacion">
@@ -33,7 +33,7 @@ require 'templates/cabecera.php';
                 
             </aside>
         </section>
-        <?php require_once('./templates/footer.php'); ?>
+        <?php require_once('includes/templates/footer.php'); ?>
     </div>
 </body>
 </html>

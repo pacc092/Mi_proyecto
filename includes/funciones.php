@@ -1,9 +1,14 @@
 <?php
 require 'app.php';
-define('TEMPLATES_URL', __DIR__ . '/templates');
-define('FUNCIONES_URL', __DIR__ . 'funciones.php');
 
-$sol = str_replace(basename($_SERVER['PHP_SELF']),'',$_SERVER["SCRIPT_NAME"]); 
-define('WEBROOT', $sol);
+function incluirTemplate(string $nombre){
+    include TEMPLATES_URL . "/$nombre.php";
+}
+
+function active($pagina_actual){
+    $url_array = explode('/',$_SERVER['REQUEST_URI']);
+    $url = end($url_array);
+    if($pagina_actual == $url) echo 'active';
+}
 
 ?>

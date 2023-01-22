@@ -1,5 +1,5 @@
 <?php
-require('templates/cabecera.php');
+require('includes/templates/cabecera.php');
 
 $mensaje='';
 
@@ -199,7 +199,7 @@ var_dump($_POST);
             
             
         </section>
-        <?php require_once('./templates/footer.php'); ?>
+        <?php require_once('includes/templates/footer.php'); ?>
     </div>
 </body>
 </html>

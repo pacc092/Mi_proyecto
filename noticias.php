@@ -1,31 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Noticias</title>
-    <link rel="stylesheet" href="./assets/css/estilos.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-    <link rel="icon" href="./assets/imagenes/icono.jpg">
-</head>
-<body>
-    <div class="padren">
-        <header id="noticias">
-            <div class="menu margen-interno">
-                <div class="logo">
-                    <a href="./index.php">VideoGam3rs</a>
-                </div>
-                <nav class="nav">
-                    <a href="./index.php"><i class="fa-solid fa-house"></i>Inicio</a>
-                    <a href="./noticias.php"><i class="fa-solid fa-layer-group"></i>Noticias</a>
-                    <a href="./productos.php"><i class="fa-solid fa-folder-open"></i>Productos</a>
-                    <a href="./nosotros2.php"><i class="fa-solid fa-magnifying-glass"></i>Nosotros</a>
-                </nav>
-                <div class="social">
-                    <div><a href="#"><i class="fa-brands fa-facebook"></i>facebook</a></div>
-                    <div><a href="#"><i class="fa-brands fa-twitter"></i>Twitter</a></div>
-                </div>
+<?php
+require 'includes/templates/cabecera.php';
+?>
             </div>
             <div class="texto-principal margen-interno">
                 <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium assumenda quaerat aperiam deserunt ducimus quidem minus modi suscipit libero sint excepturi autem tempore nostrum cum numquam exercitationem doloremque, facilis quis! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat consequatur similique in iste delectus, cum asperiores. Mollitia, modi eaque blanditiis reprehenderit dignissimos facere culpa atque corrupti expedita at est quibusdam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid blanditiis omnis, nesciunt perspiciatis reprehenderit a id, quos cum incidunt sequi rem voluptatem illum numquam doloribus sunt nam voluptates amet repellat!</h1>
@@ -72,7 +47,7 @@
                 </nav>
             
         </section>
-        <?php require_once('./templates/footer.php'); ?>
+        <?php require_once('includes/templates/footer.php'); ?>
     </div>
 </body>
 </html>
